@@ -185,11 +185,32 @@
       <types>String</types>
       <stringQualifiers/>
     </type>
+    <multiLine>true</multiLine>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:StringValue">
       <value></value>
     </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="17fe19bc-7f2b-4b90-b6ed-4f4c3170d464">
+    <name>СогласованнаяСкидка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Согласованная скидка</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>5</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
